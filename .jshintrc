@@ -1,0 +1,40 @@
+{
+    // JSHint Default Configuration File (as on JSHint website)
+    // See http://jshint.com/docs/ for more details
+
+    "maxerr"        : 50,       // {int} Maximum error before stopping
+
+    // Enforcing
+    "camelcase"     : true,    // true: Identifiers must be in camelCase
+    "curly"         : false,     // true: Require {} for every new block or scope
+    "eqeqeq"        : false,     // true: Require triple equals (===) for comparison
+    "quotmark"      : "single",    // Quotation mark consistency:
+                                //   false    : do nothing (default)
+                                //   true     : ensure whatever is used is consistent
+                                //   "single" : require single quotes
+                                //   "double" : require double quotes
+    "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+    "unused"        : true,     // true: Require all defined variables be used
+    "strict"        : false,     // true: Requires all functions run in ES5 Strict Mode
+
+    // Relaxing
+    "asi"           : true,     // true: Tolerate Automatic Semicolon Insertion (no semicolons)
+    "boss"          : false,     // true: Tolerate assignments where comparisons would be expected
+    "esnext"        : true,     // true: Allow ES.next (ES6) syntax (ex: `const`)
+    "moz"           : true,     // true: Allow Mozilla specific syntax (extends and overrides esnext features)
+                                 // (ex: `for each`, multiple try/catch, function expression…)
+    "lastsemic"     : true,     // true: Tolerate omitting a semicolon for the last statement of a 1-line block
+    "laxcomma"      : true,     // true: Tolerate comma-first style coding
+
+    // Environments
+    "browser"       : true,     // Web Browser (window, document, etc)
+    "jquery"        : true,    // jQuery
+    "node"          : true,    // Node.js
+    "nonstandard"   : true,    // Widely adopted globals (escape, unescape, etc)
+
+    // Legacy
+    "white"         : false,    // true: Check against strict whitespace and indentation rules
+
+    // Custom Globals
+    "globals"       : {}        // additional predefined global variables
+}
