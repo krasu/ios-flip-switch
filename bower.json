@@ -1,0 +1,20 @@
+{
+  "name": "ios-flip-switch",
+  "version": "1.0.0",
+  "homepage": "http://krasu.github.io/ios-flip-switch/",
+  "authors": [
+    "krasu <krasniyrus@gmail.com>"
+  ],
+  "description": "iOS styled checkboxes with touch support",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.9"
+  }
+}
