@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#4E575B;
   font-weight:300;
 }
 
@@ -253,3 +253,37 @@ footer {
     color:#444;
   }
 }
+
+#example {
+	padding: 2em 0;
+	clear: both;
+}
+
+.row {
+	padding-bottom: 1em;
+	clear: both;
+}
+
+.row label {
+	vertical-align: middle;
+	padding: 0 1em;
+	height: 2.8em;
+	display: inline-block;
+}
+
+.ios-switch-container {
+	float: right;
+}
+
+.bigger {
+	float: right;
+}
+
+.bigger .ios-switch-container {
+	font-size: 300%;
+}
+
+.smaller .ios-switch-container {
+	font-size: 100%;
+}
+
