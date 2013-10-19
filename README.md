@@ -1,6 +1,3 @@
-ios-flip-switch
-===============
-
 ###Why another one iOS flip switcher?
 
 It is free for all, it is fully support mobile devices, no images just CSS3, and because when it was written, here was no free alternative to it.
