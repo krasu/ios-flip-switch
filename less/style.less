@@ -9,77 +9,77 @@
   overflow: hidden;
 
   input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
   }
 
   .off {
-    display: block;
-    position: absolute;
-    vertical-align: middle;
-    width: 3em;
-    height: 1em;
-    background: white;
-    background: linear-gradient(#f8f8f8, #f9f9f9);
-    overflow: hidden;
-    box-shadow: 0 .1em .1em #b4b6bb inset, 0 .45em 0 .1em #eee inset;
-    border-radius: inherit;
-    z-index: 0;
+	display: block;
+	position: absolute;
+	vertical-align: middle;
+	width: 3em;
+	height: 1em;
+	background: white;
+	background: linear-gradient(#f8f8f8, #f9f9f9);
+	overflow: hidden;
+	box-shadow: 0 .1em .1em #b4b6bb inset, 0 .45em 0 .1em #eee inset;
+	border-radius: inherit;
+	z-index: 0;
 
-    &:after {
-      content: 'No';
-      color: #2B3247;
-      text-shadow: 0 2px 0 #fff;
-      text-indent: 1.9em;
-    }
+	&:after {
+	  content: 'No';
+	  color: #2B3247;
+	  text-shadow: 0 2px 0 #fff;
+	  text-indent: 1.9em;
+	}
   }
 
   .on {
-    position: absolute;
-    display: block;
-    float: left;
-    vertical-align: middle;
-    width: 3em;
-    height: 1em;
-    background: white;
-    background: linear-gradient(#697597, #8790a9);
-    overflow: hidden;
-    box-shadow: 0 .1em .1em #38425e inset, 0 .45em 0 .1em #505e85 inset;
-    border-radius: inherit;
-    z-index: 0;
-    left: -2em;
+	position: absolute;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	width: 3em;
+	height: 1em;
+	background: white;
+	background: linear-gradient(#697597, #8790a9);
+	overflow: hidden;
+	box-shadow: 0 .1em .1em #38425e inset, 0 .45em 0 .1em #505e85 inset;
+	border-radius: inherit;
+	z-index: 0;
+	left: -2em;
 
-    &:after {
-      content: 'Yes';
-      color: #fff;
-      text-shadow: 0 -2px 0px #000;
-      text-indent: .7em;
-    }
+	&:after {
+	  content: 'Yes';
+	  color: #fff;
+	  text-shadow: 0 -2px 0px #000;
+	  text-indent: .7em;
+	}
   }
 
   .on:after, .off:after {
-    text-transform: uppercase;
-    position: relative;
-    display: block;
-    font-size: 0.7em;
-    font-weight: bold;
-    top: .25em;
-    line-height: 1;
+	text-transform: uppercase;
+	position: relative;
+	display: block;
+	font-size: 0.7em;
+	font-weight: bold;
+	top: .25em;
+	line-height: 1;
   }
 
   .switcher {
-    width: 1em;
-    height: 1em;
-    border: 1px solid #485069;
-    background: white;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), transparent);
-    box-shadow: 0 .1em .1em .1em #d2d2d2 inset, 0 0 .5em rgba(0, 0, 0, .3);
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: -1px;
-    left: 0;
+	width: 1em;
+	height: 1em;
+	border: 1px solid #485069;
+	background: white;
+	background-image: linear-gradient(rgba(0, 0, 0, .2), transparent);
+	box-shadow: 0 .1em .1em .1em #d2d2d2 inset, 0 0 .5em rgba(0, 0, 0, .3);
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: -1px;
+	left: 0;
   }
 }
